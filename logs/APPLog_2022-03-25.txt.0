@@ -1,0 +1,357 @@
+BROWSER ENUM.........CHROME
+Begining of Test...........
+
+[@ciplahr, @deepdive, @deepdive_positive_themes_selected_combination] STARTED
+FEATURE: cipla hr deepdive page validation
+SCENARIO: Verify the Positive themes for the selected combinations
+Logging into Mavis HR....
+Accessing Graphene Access Point.......................
+Graphene Access Point URL: https://accesspoint.graphenesvc.com/web
+Multiple tiles present with the given app Name. Considering first one and going forward.
+Title After Switch: Mavis - Graphene
+****POSITIVE THEMES VALIDATION***
+****COMBINATION: Pharmaceuticals,Cipla,India,Q4 2021
+Connection String...jdbc:sqlserver://10.0.4.4:1433;DatabaseName=MAVIS_FACT_HR_TEST
+Product version: 14.00.1000
+DD: Positive Themes Query: select DISTINCT THEME,THEME_PERC from FT_DeepDiveDefault 
+WHERE TIME_LABEL='Q4 2021' AND BRAND_KEY=(SELECT BRAND_KEY from DM_BRAND where DISPLAY_NAME='Cipla') 
+AND COUNTRY_KEY=(SELECT COUNTRY_KEY from DM_COUNTRY where COUNTRY_NAME='India') 
+AND CATEGORY_KEY=(SELECT CATEGORY_KEY from DM_CATEGORY where DISPLAY_NAME='Pharmaceuticals') 
+AND channel_key=1 AND SENTIMENT_KEY=1 order by theme_perc desc
+	Theme:Dynamic and Positive Work Culture DB Score:19.1%, UI Score:19.1% - PASS
+	Theme:Great Environment at the Workplace DB Score:17.4%, UI Score:17.4% - PASS
+	Theme:Enriching Personal Work Experience DB Score:12.8%, UI Score:12.8% - PASS
+	Theme:Appealing Company Character DB Score:10.2%, UI Score:10.2% - PASS
+	Theme:Good Overall Compensation DB Score:6.4%, UI Score:6.4% - PASS
+	Theme:Excellent Opportunities for Growth in the company DB Score:3.6%, UI Score:3.6% - PASS
+	Theme:Supportive Working Relationship with Superiors DB Score:2.6%, UI Score:2.6% - PASS
+	Theme:Management is Encouraging DB Score:2.4%, UI Score:2.4% - PASS
+	Theme:Company is Transparent DB Score:2.2%, UI Score:2.2% - PASS
+	Theme:Healthy Working Relationship with Colleagues DB Score:1.8%, UI Score:1.8% - PASS
+	Theme:Appreciated By Management/Company DB Score:1.7%, UI Score:1.7% - PASS
+	Theme:Company Is Well Reputed DB Score:1.5%, UI Score:1.5% - PASS
+	Theme:HR Department is Helpful DB Score:1.5%, UI Score:1.5% - PASS
+	Theme:Beneficial Training & Development Programs DB Score:1.3%, UI Score:1.3% - PASS
+	Theme:Favorable Work Life Balance DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Nice Infrastructure DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Favorable Physical Working Space DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Feel Happy Working at the Company DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Good Opportunities for Job/Role Rotations DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Great Company for Entry Level Employees DB Score:1.0%, UI Score:1.0% - PASS
+	Theme:Good Transportation Facilities DB Score:1.0%, UI Score:1.0% - PASS
+	Theme:Company is Cutting Edge DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Job Security Ensured DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Love Working at the Company DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Satisfied Working at the Company DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Safe Working Environment DB Score:0.6%, UI Score:0.6% - PASS
+	Theme:Loving Environment Here DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Great Location DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Company is Leading DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Company is Dynamic DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Enjoy Working at the Company DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Well Defined Roles DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Company is Receptive to Change DB Score:0.3%, UI Score:0.3% - PASS
+	Theme:Great Canteen/Cafeteria DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Well Maintained Space DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Encouraging Atmosphere at the Company DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Programs for Women DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Reasonable Working Hours DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Company is Environmentally Conscious DB Score:0.1%, UI Score:0.1% - PASS
+	Theme:Ethically Responsible DB Score:0.1%, UI Score:0.1% - PASS
+	Theme:Enthusiastic to Work at the Company DB Score:0.1%, UI Score:0.1% - PASS
+****COMBINATION: Pharmaceuticals,Abbott,India,Q3 2021
+DD: Positive Themes Query: select DISTINCT THEME,THEME_PERC from FT_DeepDiveDefault 
+WHERE TIME_LABEL='Q3 2021' AND BRAND_KEY=(SELECT BRAND_KEY from DM_BRAND where DISPLAY_NAME='Abbott') 
+AND COUNTRY_KEY=(SELECT COUNTRY_KEY from DM_COUNTRY where COUNTRY_NAME='India') 
+AND CATEGORY_KEY=(SELECT CATEGORY_KEY from DM_CATEGORY where DISPLAY_NAME='Pharmaceuticals') 
+AND channel_key=1 AND SENTIMENT_KEY=1 order by theme_perc desc
+After scenario..........
+Tear down Scenario..........
+STATUS: FAILED
+Quiting Driver....
+BROWSER ENUM.........CHROME
+Begining of Test...........
+
+[@ciplahr, @deepdive, @deepdive_positive_themes_selected_combination] STARTED
+FEATURE: cipla hr deepdive page validation
+SCENARIO: Verify the Positive themes for the selected combinations
+Logging into Mavis HR....
+Accessing Graphene Access Point.......................
+Graphene Access Point URL: https://accesspoint.graphenesvc.com/web
+Multiple tiles present with the given app Name. Considering first one and going forward.
+Title After Switch: Mavis HR
+****POSITIVE THEMES VALIDATION***
+****COMBINATION: Pharmaceuticals,Cipla,India,Q4 2021
+Connection String...jdbc:sqlserver://10.0.4.4:1433;DatabaseName=MAVIS_FACT_HR_TEST
+Product version: 14.00.1000
+DD: Positive Themes Query: select DISTINCT THEME,THEME_PERC from FT_DeepDiveDefault 
+WHERE TIME_LABEL='Q4 2021' AND BRAND_KEY=(SELECT BRAND_KEY from DM_BRAND where DISPLAY_NAME='Cipla') 
+AND COUNTRY_KEY=(SELECT COUNTRY_KEY from DM_COUNTRY where COUNTRY_NAME='India') 
+AND CATEGORY_KEY=(SELECT CATEGORY_KEY from DM_CATEGORY where DISPLAY_NAME='Pharmaceuticals') 
+AND channel_key=1 AND SENTIMENT_KEY=1 order by theme_perc desc
+	Theme:Dynamic and Positive Work Culture DB Score:19.1%, UI Score:19.1% - PASS
+	Theme:Great Environment at the Workplace DB Score:17.4%, UI Score:17.4% - PASS
+	Theme:Enriching Personal Work Experience DB Score:12.8%, UI Score:12.8% - PASS
+	Theme:Appealing Company Character DB Score:10.2%, UI Score:10.2% - PASS
+	Theme:Good Overall Compensation DB Score:6.4%, UI Score:6.4% - PASS
+	Theme:Excellent Opportunities for Growth in the company DB Score:3.6%, UI Score:3.6% - PASS
+	Theme:Supportive Working Relationship with Superiors DB Score:2.6%, UI Score:2.6% - PASS
+	Theme:Management is Encouraging DB Score:2.4%, UI Score:2.4% - PASS
+	Theme:Company is Transparent DB Score:2.2%, UI Score:2.2% - PASS
+	Theme:Healthy Working Relationship with Colleagues DB Score:1.8%, UI Score:1.8% - PASS
+	Theme:Appreciated By Management/Company DB Score:1.7%, UI Score:1.7% - PASS
+	Theme:Company Is Well Reputed DB Score:1.5%, UI Score:1.5% - PASS
+	Theme:HR Department is Helpful DB Score:1.5%, UI Score:1.5% - PASS
+	Theme:Beneficial Training & Development Programs DB Score:1.3%, UI Score:1.3% - PASS
+	Theme:Favorable Work Life Balance DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Nice Infrastructure DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Favorable Physical Working Space DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Feel Happy Working at the Company DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Good Opportunities for Job/Role Rotations DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Great Company for Entry Level Employees DB Score:1.0%, UI Score:1.0% - PASS
+	Theme:Good Transportation Facilities DB Score:1.0%, UI Score:1.0% - PASS
+	Theme:Company is Cutting Edge DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Job Security Ensured DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Love Working at the Company DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Satisfied Working at the Company DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Safe Working Environment DB Score:0.6%, UI Score:0.6% - PASS
+	Theme:Loving Environment Here DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Great Location DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Company is Leading DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Company is Dynamic DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Enjoy Working at the Company DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Well Defined Roles DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Company is Receptive to Change DB Score:0.3%, UI Score:0.3% - PASS
+	Theme:Great Canteen/Cafeteria DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Well Maintained Space DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Encouraging Atmosphere at the Company DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Programs for Women DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Reasonable Working Hours DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Company is Environmentally Conscious DB Score:0.1%, UI Score:0.1% - PASS
+	Theme:Ethically Responsible DB Score:0.1%, UI Score:0.1% - PASS
+	Theme:Enthusiastic to Work at the Company DB Score:0.1%, UI Score:0.1% - PASS
+****COMBINATION: Pharmaceuticals,Abbott,India,Q3 2021
+DD: Positive Themes Query: select DISTINCT THEME,THEME_PERC from FT_DeepDiveDefault 
+WHERE TIME_LABEL='Q3 2021' AND BRAND_KEY=(SELECT BRAND_KEY from DM_BRAND where DISPLAY_NAME='Abbott') 
+AND COUNTRY_KEY=(SELECT COUNTRY_KEY from DM_COUNTRY where COUNTRY_NAME='India') 
+AND CATEGORY_KEY=(SELECT CATEGORY_KEY from DM_CATEGORY where DISPLAY_NAME='Pharmaceuticals') 
+AND channel_key=1 AND SENTIMENT_KEY=1 order by theme_perc desc
+	Theme:Great Environment at the Workplace DB Score:15.7%, UI Score:15.7% - PASS
+	Theme:Appealing Company Character DB Score:15.2%, UI Score:15.2% - PASS
+	Theme:Dynamic and Positive Work Culture DB Score:11.0%, UI Score:11.0% - PASS
+	Theme:Good Overall Compensation DB Score:10.9%, UI Score:10.9% - PASS
+	Theme:Excellent Opportunities for Growth in the company DB Score:6.2%, UI Score:6.2% - PASS
+	Theme:Healthy Working Relationship with Colleagues DB Score:5.1%, UI Score:5.1% - PASS
+	Theme:Enriching Personal Work Experience DB Score:4.4%, UI Score:4.4% - PASS
+	Theme:Company is Transparent DB Score:4.1%, UI Score:4.1% - PASS
+	Theme:Management is Encouraging DB Score:3.3%, UI Score:3.3% - PASS
+	Theme:Supportive Working Relationship with Superiors DB Score:3.3%, UI Score:3.3% - PASS
+	Theme:Good Opportunities for Job/Role Rotations DB Score:2.5%, UI Score:2.5% - PASS
+	Theme:Favorable Work Life Balance DB Score:2.2%, UI Score:2.2% - PASS
+	Theme:HR Department is Helpful DB Score:2.1%, UI Score:2.1% - PASS
+	Theme:Love Working at the Company DB Score:1.9%, UI Score:1.9% - PASS
+	Theme:Satisfied Working at the Company DB Score:1.4%, UI Score:1.4% - PASS
+	Theme:Company is Cutting Edge DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Great Canteen/Cafeteria DB Score:1.0%, UI Score:1.0% - PASS
+	Theme:Reasonable Working Hours DB Score:0.9%, UI Score:0.9% - PASS
+	Theme:Company has Good Values DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Company has High Standards DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Educative Internship Programs DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Feel Happy Working at the Company DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Well Defined Roles DB Score:0.6%, UI Score:0.6% - PASS
+	Theme:Favorable Physical Working Space DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Vacation Time DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Company is Leading DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Loving Environment Here DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Attractive Bonus Programs (Performance Incentives) DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Job Security Ensured DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Beneficial Training & Development Programs DB Score:0.3%, UI Score:0.3% - PASS
+	Theme:Company has good CEO & Leadership Board Ratings DB Score:0.3%, UI Score:0.3% - PASS
+After scenario..........
+Tear down Scenario..........
+STATUS: FAILED
+Quiting Driver....
+BROWSER ENUM.........CHROME
+Begining of Test...........
+
+[@ciplahr, @deepdive, @deepdive_positive_themes_selected_combination] STARTED
+FEATURE: cipla hr deepdive page validation
+SCENARIO: Verify the Positive themes for the selected combinations
+Logging into Mavis HR....
+Accessing Graphene Access Point.......................
+Graphene Access Point URL: https://accesspoint.graphenesvc.com/web
+Multiple tiles present with the given app Name. Considering first one and going forward.
+Title After Switch: Mavis HR
+****POSITIVE THEMES VALIDATION***
+****COMBINATION: Pharmaceuticals,Cipla,India,Q4 2021
+Connection String...jdbc:sqlserver://10.0.4.4:1433;DatabaseName=MAVIS_FACT_HR_TEST
+Product version: 14.00.1000
+DD: Positive Themes Query: select DISTINCT THEME,THEME_PERC from FT_DeepDiveDefault 
+WHERE TIME_LABEL='Q4 2021' AND BRAND_KEY=(SELECT BRAND_KEY from DM_BRAND where DISPLAY_NAME='Cipla') 
+AND COUNTRY_KEY=(SELECT COUNTRY_KEY from DM_COUNTRY where COUNTRY_NAME='India') 
+AND CATEGORY_KEY=(SELECT CATEGORY_KEY from DM_CATEGORY where DISPLAY_NAME='Pharmaceuticals') 
+AND channel_key=1 AND SENTIMENT_KEY=1 order by theme_perc desc
+	Theme:Dynamic and Positive Work Culture DB Score:19.1%, UI Score:19.1% - PASS
+	Theme:Great Environment at the Workplace DB Score:17.4%, UI Score:17.4% - PASS
+	Theme:Enriching Personal Work Experience DB Score:12.8%, UI Score:12.8% - PASS
+	Theme:Appealing Company Character DB Score:10.2%, UI Score:10.2% - PASS
+	Theme:Good Overall Compensation DB Score:6.4%, UI Score:6.4% - PASS
+	Theme:Excellent Opportunities for Growth in the company DB Score:3.6%, UI Score:3.6% - PASS
+	Theme:Supportive Working Relationship with Superiors DB Score:2.6%, UI Score:2.6% - PASS
+	Theme:Management is Encouraging DB Score:2.4%, UI Score:2.4% - PASS
+	Theme:Company is Transparent DB Score:2.2%, UI Score:2.2% - PASS
+	Theme:Healthy Working Relationship with Colleagues DB Score:1.8%, UI Score:1.8% - PASS
+	Theme:Appreciated By Management/Company DB Score:1.7%, UI Score:1.7% - PASS
+	Theme:Company Is Well Reputed DB Score:1.5%, UI Score:1.5% - PASS
+	Theme:HR Department is Helpful DB Score:1.5%, UI Score:1.5% - PASS
+	Theme:Beneficial Training & Development Programs DB Score:1.3%, UI Score:1.3% - PASS
+	Theme:Favorable Work Life Balance DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Nice Infrastructure DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Favorable Physical Working Space DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Feel Happy Working at the Company DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Good Opportunities for Job/Role Rotations DB Score:1.1%, UI Score:1.1% - PASS
+	Theme:Great Company for Entry Level Employees DB Score:1.0%, UI Score:1.0% - PASS
+	Theme:Good Transportation Facilities DB Score:1.0%, UI Score:1.0% - PASS
+	Theme:Company is Cutting Edge DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Job Security Ensured DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Love Working at the Company DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Satisfied Working at the Company DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Safe Working Environment DB Score:0.6%, UI Score:0.6% - PASS
+	Theme:Loving Environment Here DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Great Location DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Company is Leading DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Company is Dynamic DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Enjoy Working at the Company DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Well Defined Roles DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Company is Receptive to Change DB Score:0.3%, UI Score:0.3% - PASS
+	Theme:Great Canteen/Cafeteria DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Well Maintained Space DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Encouraging Atmosphere at the Company DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Programs for Women DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Reasonable Working Hours DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Company is Environmentally Conscious DB Score:0.1%, UI Score:0.1% - PASS
+	Theme:Ethically Responsible DB Score:0.1%, UI Score:0.1% - PASS
+	Theme:Enthusiastic to Work at the Company DB Score:0.1%, UI Score:0.1% - PASS
+****COMBINATION: Pharmaceuticals,Abbott,India,Q3 2021
+DD: Positive Themes Query: select DISTINCT THEME,THEME_PERC from FT_DeepDiveDefault 
+WHERE TIME_LABEL='Q3 2021' AND BRAND_KEY=(SELECT BRAND_KEY from DM_BRAND where DISPLAY_NAME='Abbott') 
+AND COUNTRY_KEY=(SELECT COUNTRY_KEY from DM_COUNTRY where COUNTRY_NAME='India') 
+AND CATEGORY_KEY=(SELECT CATEGORY_KEY from DM_CATEGORY where DISPLAY_NAME='Pharmaceuticals') 
+AND channel_key=1 AND SENTIMENT_KEY=1 order by theme_perc desc
+	Theme:Great Environment at the Workplace DB Score:15.7%, UI Score:15.7% - PASS
+	Theme:Appealing Company Character DB Score:15.2%, UI Score:15.2% - PASS
+	Theme:Dynamic and Positive Work Culture DB Score:11.0%, UI Score:11.0% - PASS
+	Theme:Good Overall Compensation DB Score:10.9%, UI Score:10.9% - PASS
+	Theme:Excellent Opportunities for Growth in the company DB Score:6.2%, UI Score:6.2% - PASS
+	Theme:Healthy Working Relationship with Colleagues DB Score:5.1%, UI Score:5.1% - PASS
+	Theme:Enriching Personal Work Experience DB Score:4.4%, UI Score:4.4% - PASS
+	Theme:Company is Transparent DB Score:4.1%, UI Score:4.1% - PASS
+	Theme:Management is Encouraging DB Score:3.3%, UI Score:3.3% - PASS
+	Theme:Supportive Working Relationship with Superiors DB Score:3.3%, UI Score:3.3% - PASS
+	Theme:Good Opportunities for Job/Role Rotations DB Score:2.5%, UI Score:2.5% - PASS
+	Theme:Favorable Work Life Balance DB Score:2.2%, UI Score:2.2% - PASS
+	Theme:HR Department is Helpful DB Score:2.1%, UI Score:2.1% - PASS
+	Theme:Love Working at the Company DB Score:1.9%, UI Score:1.9% - PASS
+	Theme:Satisfied Working at the Company DB Score:1.4%, UI Score:1.4% - PASS
+	Theme:Company is Cutting Edge DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Great Canteen/Cafeteria DB Score:1.0%, UI Score:1.0% - PASS
+	Theme:Reasonable Working Hours DB Score:0.9%, UI Score:0.9% - PASS
+	Theme:Company has Good Values DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Company has High Standards DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Educative Internship Programs DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Feel Happy Working at the Company DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Well Defined Roles DB Score:0.6%, UI Score:0.6% - PASS
+	Theme:Favorable Physical Working Space DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Vacation Time DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Company is Leading DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Loving Environment Here DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Attractive Bonus Programs (Performance Incentives) DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Job Security Ensured DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Beneficial Training & Development Programs DB Score:0.3%, UI Score:0.3% - PASS
+	Theme:Company has good CEO & Leadership Board Ratings DB Score:0.3%, UI Score:0.3% - PASS
+	Theme:Company Values Its Employees DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Great Company for Entry Level Employees DB Score:0.1%, UI Score:0.1% - PASS
+	Theme:Nice Infrastructure DB Score:0.1%, UI Score:0.1% - PASS
+****COMBINATION: Pharmaceuticals,Abbott,India,Q2 2021
+DD: Positive Themes Query: select DISTINCT THEME,THEME_PERC from FT_DeepDiveDefault 
+WHERE TIME_LABEL='Q2 2021' AND BRAND_KEY=(SELECT BRAND_KEY from DM_BRAND where DISPLAY_NAME='Abbott') 
+AND COUNTRY_KEY=(SELECT COUNTRY_KEY from DM_COUNTRY where COUNTRY_NAME='India') 
+AND CATEGORY_KEY=(SELECT CATEGORY_KEY from DM_CATEGORY where DISPLAY_NAME='Pharmaceuticals') 
+AND channel_key=1 AND SENTIMENT_KEY=1 order by theme_perc desc
+	Theme:Appealing Company Character DB Score:17.1%, UI Score:17.1% - PASS
+	Theme:Great Environment at the Workplace DB Score:14.7%, UI Score:14.7% - PASS
+	Theme:Dynamic and Positive Work Culture DB Score:12.4%, UI Score:12.4% - PASS
+	Theme:Good Overall Compensation DB Score:11.0%, UI Score:11.0% - PASS
+	Theme:Enriching Personal Work Experience DB Score:5.4%, UI Score:5.4% - PASS
+	Theme:Company is Transparent DB Score:4.3%, UI Score:4.3% - PASS
+	Theme:Healthy Working Relationship with Colleagues DB Score:4.3%, UI Score:4.3% - PASS
+	Theme:Management is Encouraging DB Score:3.4%, UI Score:3.4% - PASS
+	Theme:Excellent Opportunities for Growth in the company DB Score:3.2%, UI Score:3.2% - PASS
+	Theme:Supportive Working Relationship with Superiors DB Score:2.7%, UI Score:2.7% - PASS
+	Theme:Good Opportunities for Job/Role Rotations DB Score:2.4%, UI Score:2.4% - PASS
+	Theme:Love Working at the Company DB Score:2.2%, UI Score:2.2% - PASS
+	Theme:HR Department is Helpful DB Score:1.8%, UI Score:1.8% - PASS
+	Theme:Favorable Work Life Balance DB Score:1.3%, UI Score:1.3% - PASS
+	Theme:Satisfied Working at the Company DB Score:1.3%, UI Score:1.3% - PASS
+	Theme:Attractive Bonus Programs (Performance Incentives) DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Appreciated By Management/Company DB Score:0.9%, UI Score:0.9% - PASS
+	Theme:Loving Environment Here DB Score:0.9%, UI Score:0.9% - PASS
+	Theme:Great Canteen/Cafeteria DB Score:0.9%, UI Score:0.9% - PASS
+	Theme:Company has good CEO & Leadership Board Ratings DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Favorable Physical Working Space DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Company is Cutting Edge DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Company has High Standards DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Feel Happy Working at the Company DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Safe Working Environment DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Well Defined Roles DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Vacation Time DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Company is Dynamic DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Well Rounded Career Development DB Score:0.4%, UI Score:0.4% - PASS
+	Theme:Company has Good Values DB Score:0.3%, UI Score:0.3% - PASS
+	Theme:Company Is Well Reputed DB Score:0.3%, UI Score:0.3% - PASS
+	Theme:Beneficial Training & Development Programs DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Company is Leading DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Company Values Its Employees DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Programs for Women DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Reasonable Working Hours DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Remote Work Options DB Score:0.2%, UI Score:0.2% - PASS
+	Theme:Great Location DB Score:0.1%, UI Score:0.1% - PASS
+****COMBINATION: Pharmaceuticals,Alkem,India,Q4 2021
+DD: Positive Themes Query: select DISTINCT THEME,THEME_PERC from FT_DeepDiveDefault 
+WHERE TIME_LABEL='Q4 2021' AND BRAND_KEY=(SELECT BRAND_KEY from DM_BRAND where DISPLAY_NAME='Alkem') 
+AND COUNTRY_KEY=(SELECT COUNTRY_KEY from DM_COUNTRY where COUNTRY_NAME='India') 
+AND CATEGORY_KEY=(SELECT CATEGORY_KEY from DM_CATEGORY where DISPLAY_NAME='Pharmaceuticals') 
+AND channel_key=1 AND SENTIMENT_KEY=1 order by theme_perc desc
+	Theme:Great Environment at the Workplace DB Score:15.1%, UI Score:15.1% - PASS
+	Theme:Dynamic and Positive Work Culture DB Score:14.4%, UI Score:14.4% - PASS
+	Theme:Appealing Company Character DB Score:10.6%, UI Score:10.6% - PASS
+	Theme:Good Overall Compensation DB Score:7.7%, UI Score:7.7% - PASS
+	Theme:Management is Encouraging DB Score:7.6%, UI Score:7.6% - PASS
+	Theme:Excellent Opportunities for Growth in the company DB Score:5.9%, UI Score:5.9% - PASS
+	Theme:Enriching Personal Work Experience DB Score:5.1%, UI Score:5.1% - PASS
+	Theme:Supportive Working Relationship with Superiors DB Score:3.6%, UI Score:3.6% - PASS
+	Theme:HR Department is Helpful DB Score:3.2%, UI Score:3.2% - PASS
+	Theme:Great Canteen/Cafeteria DB Score:2.8%, UI Score:2.8% - PASS
+	Theme:Company is Leading DB Score:2.7%, UI Score:2.7% - PASS
+	Theme:Healthy Working Relationship with Colleagues DB Score:2.5%, UI Score:2.5% - PASS
+	Theme:Beneficial Training & Development Programs DB Score:1.8%, UI Score:1.8% - PASS
+	Theme:Company is Cutting Edge DB Score:1.6%, UI Score:1.6% - PASS
+	Theme:Company is Transparent DB Score:1.6%, UI Score:1.6% - PASS
+	Theme:Great Company for Entry Level Employees DB Score:1.6%, UI Score:1.6% - PASS
+	Theme:Nice Infrastructure DB Score:1.6%, UI Score:1.6% - PASS
+	Theme:Excited to Work at this Company DB Score:1.5%, UI Score:1.5% - PASS
+	Theme:Favorable Work Life Balance DB Score:1.5%, UI Score:1.5% - PASS
+	Theme:Attractive Bonus Programs (Performance Incentives) DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Favorable Physical Working Space DB Score:1.2%, UI Score:1.2% - PASS
+	Theme:Company has good CEO & Leadership Board Ratings DB Score:0.9%, UI Score:0.9% - PASS
+	Theme:Good Opportunities for Job/Role Rotations DB Score:0.9%, UI Score:0.9% - PASS
+	Theme:Satisfied Working at the Company DB Score:0.8%, UI Score:0.8% - PASS
+	Theme:Company Is Well Reputed DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Employees feel Empowered at the Company DB Score:0.7%, UI Score:0.7% - PASS
+	Theme:Appreciated By Management/Company DB Score:0.6%, UI Score:0.6% - PASS
+	Theme:Feel Happy Working at the Company DB Score:0.5%, UI Score:0.5% - PASS
+	Theme:Reasonable Working Hours DB Score:0.3%, UI Score:0.3% - PASS
+After scenario..........
+Tear down Scenario..........
+STATUS: PASSED
+Quiting Driver....

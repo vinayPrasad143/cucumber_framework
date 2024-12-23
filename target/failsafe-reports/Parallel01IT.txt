@@ -1,0 +1,103 @@
+-------------------------------------------------------------------------------
+Test set: Parallel01IT
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 3, Time elapsed: 2.176 s <<< FAILURE! - in Parallel01IT
+Scenario: Verify the Negative themes for the selected combinations  Time elapsed: 1.756 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.62 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-83KO0Q6', ip: '192.168.0.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x008BA813+48355]
+	(No symbol) [0x0084C4B1]
+	(No symbol) [0x00755358]
+	(No symbol) [0x007761AC]
+	(No symbol) [0x00771EF3]
+	(No symbol) [0x00770579]
+	(No symbol) [0x007A0C55]
+	(No symbol) [0x007A093C]
+	(No symbol) [0x0079A536]
+	(No symbol) [0x007782DC]
+	(No symbol) [0x007793DD]
+	GetHandleVerifier [0x00B1AABD+2539405]
+	GetHandleVerifier [0x00B5A78F+2800735]
+	GetHandleVerifier [0x00B5456C+2775612]
+	GetHandleVerifier [0x009451E0+616112]
+	(No symbol) [0x00855F8C]
+	(No symbol) [0x00852328]
+	(No symbol) [0x0085240B]
+	(No symbol) [0x00844FF7]
+	BaseThreadInitThunk [0x76537BA9+25]
+	RtlInitializeExceptionChain [0x775BC10B+107]
+	RtlClearBits [0x775BC08F+191]
+
+
+Scenario: Verify the Negative themes for the selected combinations  Time elapsed: 1.772 s  <<< ERROR!
+java.lang.NoClassDefFoundError: co.graphene.config.SeleniumDriver (initialization failure)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.62 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-83KO0Q6', ip: '192.168.0.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x008BA813+48355]
+	(No symbol) [0x0084C4B1]
+	(No symbol) [0x00755358]
+	(No symbol) [0x007761AC]
+	(No symbol) [0x00771EF3]
+	(No symbol) [0x00770579]
+	(No symbol) [0x007A0C55]
+	(No symbol) [0x007A093C]
+	(No symbol) [0x0079A536]
+	(No symbol) [0x007782DC]
+	(No symbol) [0x007793DD]
+	GetHandleVerifier [0x00B1AABD+2539405]
+	GetHandleVerifier [0x00B5A78F+2800735]
+	GetHandleVerifier [0x00B5456C+2775612]
+	GetHandleVerifier [0x009451E0+616112]
+	(No symbol) [0x00855F8C]
+	(No symbol) [0x00852328]
+	(No symbol) [0x0085240B]
+	(No symbol) [0x00844FF7]
+	BaseThreadInitThunk [0x76537BA9+25]
+	RtlInitializeExceptionChain [0x775BC10B+107]
+	RtlClearBits [0x775BC08F+191]
+
+
+Scenario: Verify the Negative themes for the selected combinations  Time elapsed: 1.776 s  <<< ERROR!
+java.lang.NoClassDefFoundError: co.graphene.config.SeleniumDriver (initialization failure)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.62 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-83KO0Q6', ip: '192.168.0.169', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x008BA813+48355]
+	(No symbol) [0x0084C4B1]
+	(No symbol) [0x00755358]
+	(No symbol) [0x007761AC]
+	(No symbol) [0x00771EF3]
+	(No symbol) [0x00770579]
+	(No symbol) [0x007A0C55]
+	(No symbol) [0x007A093C]
+	(No symbol) [0x0079A536]
+	(No symbol) [0x007782DC]
+	(No symbol) [0x007793DD]
+	GetHandleVerifier [0x00B1AABD+2539405]
+	GetHandleVerifier [0x00B5A78F+2800735]
+	GetHandleVerifier [0x00B5456C+2775612]
+	GetHandleVerifier [0x009451E0+616112]
+	(No symbol) [0x00855F8C]
+	(No symbol) [0x00852328]
+	(No symbol) [0x0085240B]
+	(No symbol) [0x00844FF7]
+	BaseThreadInitThunk [0x76537BA9+25]
+	RtlInitializeExceptionChain [0x775BC10B+107]
+	RtlClearBits [0x775BC08F+191]
+
+
